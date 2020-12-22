@@ -1,0 +1,13 @@
+@import '../_config.scss';
+
+#copyright {
+  float: left;
+}
+
+#social-nav {
+  float: right;
+
+  li:not(:first-child) {
+    padding-left: 1rem;
+  }
+}
