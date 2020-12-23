@@ -1,0 +1,50 @@
+@import '../_config.scss';
+
+@media screen and (max-width: 1239px) {
+  main {
+    margin: 0 auto;
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 899px) {
+  #logo, #main-nav {
+    float: none;
+  }
+  #logo {
+    display: inline-block;
+    left: 50%;
+    padding-bottom: 0 !important;
+    position: relative;
+    transform: translateX(-50%);
+  }
+  #main-nav {
+    padding-top: 0 !important;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  #copyright, #social-nav {
+    float: none;
+    text-align: center;
+  }
+  #social-nav {
+    padding-top: 0 !important;
+  }
+
+  a.button {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  #logo {
+    text-align: center;
+
+    img, h1 {
+        float: none;
+    }
+  }
+}

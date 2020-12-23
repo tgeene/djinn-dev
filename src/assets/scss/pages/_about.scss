@@ -6,3 +6,11 @@
   float: right;
   margin-left: 2rem;
 }
+
+@media screen and (max-width: 709px) {
+  .profile-picture {
+    display: block;
+    float: none;
+    margin: 0 auto 20px;
+  }
+}
