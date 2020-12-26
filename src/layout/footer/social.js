@@ -4,9 +4,9 @@ import React from 'react';
 function Social() {
   const link_list = [
     {
-      'url': "https://github.com/tgeene",
-      'title': "Trevor Geene's GitHub Repositories",
-      'text': "GitHub"
+      'url': "https://trevor.geene.co?ref=djinn-development",
+      'title': "Trevor Geene's Resume",
+      'text': "Resume"
     },
     {
       'url': "https://www.linkedin.com/in/tgeene",
@@ -14,9 +14,14 @@ function Social() {
       'text': "LinkedIn"
     },
     {
-      'url': "https://trevor.geene.co?ref=djinn-development",
-      'title': "Trevor Geene's Resume",
-      'text': "Resume"
+      'url': "https://github.com/tgeene",
+      'title': "Trevor Geene's GitHub Repositories",
+      'text': "GitHub"
+    },
+    {
+      'url': "https://stackoverflow.com/users/7764371/trevor-geene",
+      'title': "Stack Overflow Profile",
+      'text': "Stack Overflow"
     }
   ];
 

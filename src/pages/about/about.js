@@ -6,6 +6,7 @@ import { update_meta_data } from '../../lib/misc';
 // import components
 import Details from './details';
 import History from './history';
+import Languages from './languages';
 
 // content
 function AboutPage() {
@@ -19,7 +20,7 @@ function AboutPage() {
     <div id="about-page">
       <Details />
       <History />
-      <a href="https://trevor.geene.co?ref=djinn-development" title="Trevor Geene's Resume" className="button" rel="noopener noreferrer" target="_blank">View Full Resume</a>
+      <Languages />
     </div>
   );
 }

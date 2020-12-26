@@ -7,7 +7,7 @@ function Details() {
   return (
     <section className="details">
       <img src={trevor_geene} alt="Trevor Geene" className="profile-picture" width="250px" />
-      <h1>Trevor Geene's Bio</h1>
+      <h1>Trevor Geene's Biography</h1>
       <ul>
         <li><strong>Name Pronunciation:</strong> TRE-ver JEE-nee</li>
         <li><strong>Current Location:</strong> Las Vegas, NV</li>
