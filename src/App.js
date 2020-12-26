@@ -11,6 +11,8 @@ import Footer from './layout/footer/footer';
 // pages
 import HomePage from './pages/home/home';
 import AboutPage from './pages/about/about';
+import ExperimentsPage from './pages/experiments/experiments';
+import PasswordGeneratorPage from './pages/experiments/password-generator/password-generator';
 import ContactPage from './pages/contact/contact';
 
 // CSS
@@ -25,6 +27,8 @@ function App() {
         <main className="content">
           <Route exact path='/' component={HomePage} />
           <Route exact path='/about' component={AboutPage} />
+          <Route exact path='/experiments' component={ExperimentsPage} />
+          <Route exact path='/experiments/password-generator' component={PasswordGeneratorPage} />
           <Route exact path='/contact' component={ContactPage} />
         </main>
         <Footer />

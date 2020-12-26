@@ -29,7 +29,9 @@ function Social() {
     <nav id="social-nav">
       <ul>
         {link_list.map((item, i) => (
-          <li><a href={item.url} title={item.title} rel="noopener noreferrer" target="_blank">{item.text}</a></li>
+          <li key={i}>
+            <a href={item.url} title={item.title} rel="noopener noreferrer" target="_blank">{item.text}</a>
+          </li>
         ))}
       </ul>
     </nav>

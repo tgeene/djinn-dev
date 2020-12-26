@@ -20,7 +20,7 @@ function Form() {
         <div className="output"></div>
         <ul>
           <li className="half">
-            <label for="firstName">First Name <span class="required">(required)</span></label>
+            <label for="firstName">First Name <span className="required">(required)</span></label>
             <input
               type="text"
               name="firstName"
@@ -30,7 +30,7 @@ function Form() {
             {errors.firstName && <p className="error">{errors.firstName.message}</p>}
           </li>
           <li className="half">
-            <label for="lastName">Last Name <span class="required">(required)</span></label>
+            <label for="lastName">Last Name <span className="required">(required)</span></label>
             <input
               type="text"
               name="lastName"
@@ -40,7 +40,7 @@ function Form() {
             {errors.lastName && <p className="error">{errors.lastName.message}</p>}
           </li>
           <li className="half">
-            <label for="phoneNumber">Phone # <span class="required">(required)</span></label>
+            <label for="phoneNumber">Phone # <span className="required">(required)</span></label>
             <input
               type="tel"
               name="phoneNumber"
@@ -56,7 +56,7 @@ function Form() {
             {errors.phoneNumber && <p className="error">{errors.phoneNumber.message}</p>}
           </li>
           <li className="half">
-            <label for="emailAddress">Email <span class="required">(required)</span></label>
+            <label for="emailAddress">Email <span className="required">(required)</span></label>
             <input
               type="email"
               name="emailAddress"
@@ -72,7 +72,7 @@ function Form() {
             {errors.emailAddress && <p className="error">{errors.emailAddress.message}</p>}
           </li>
           <li>
-            <label for="messageContent">Message <span class="required">(required)</span></label>
+            <label for="messageContent">Message <span className="required">(required)</span></label>
             <textarea
               name="messageContent"
               id="messageContent"

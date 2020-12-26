@@ -26,7 +26,7 @@ export const formSubmitHelper = (values, form_id, url) => {
       } else {
         let output = document.createElement("p");
         output.classList.add("output");
-        output.textContent = data.message;
+        output.innerHTML = data.message;
         outputDiv.append(output);
       }
     });

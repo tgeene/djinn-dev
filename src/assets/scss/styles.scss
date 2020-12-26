@@ -71,6 +71,11 @@ form {
   .output, .required {
     color: $secondary;
   }
+  .output {
+    p {
+      margin-bottom: 10px;
+    }
+  }
   .error {
     color: $tertiary;
   }
@@ -120,6 +125,7 @@ form {
 
 @import 'pages/_home.scss';
 @import 'pages/_about.scss';
+@import 'pages/_experiments.scss';
 @import 'pages/_contact.scss';
 
 @import 'layout/_media_queries.scss';
