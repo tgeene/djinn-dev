@@ -8,6 +8,11 @@ function List() {
       'url': "/password-generator",
       'text': "Password Generation Tool",
       'description': "This tool allows you to select from a few differnt options to generate unique and secure passwords based on your needs."
+    },
+    {
+      'url': "/ipsum-generator",
+      'text': "Djinn Ipsum Generation Tool",
+      'description': "This tool allows your to generate random filler text similar to lorem ipsum, but with a little bit of a magical flair."
     }
   ];
 

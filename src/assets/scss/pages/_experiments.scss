@@ -20,24 +20,23 @@ fieldset {
     legend {
       padding: 0 10px;
     }
+
+    li {
+      overflow: hidden;
+
+      [type="checkbox"], label {
+        float: left;
+      }
+      [type="checkbox"] {
+        margin-right: 10px;
+        width: auto;
+      }
+      label {
+        margin-top: -5px;
+      }
+    }
 }
 
-.character-options, .feature-options {
-  li {
-    overflow: hidden;
-
-    [type="checkbox"], label {
-      float: left;
-    }
-    [type="checkbox"] {
-      margin-right: 10px;
-      width: auto;
-    }
-    label {
-      margin-top: -5px;
-    }
-  }
-}
 .character-options {
   li {
     display: inline-block;
