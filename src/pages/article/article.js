@@ -26,7 +26,7 @@ function ArticlePage()
 						  .then(data =>
 								{
 									setArticle(data);
-									update_meta_data(data.title + " | Djinn Development", data.description, '/article/' + data.url);
+									update_meta_data(data.title + " | Djinn Development", data.description, '/article/' + articleUrl);
 								});
 				  }
 
