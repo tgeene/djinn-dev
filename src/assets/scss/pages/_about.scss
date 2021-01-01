@@ -7,25 +7,28 @@
   margin-left: 2rem;
 }
 
-dt { font-weight: bold; }
+dt {
+  font-weight: bold;
+}
+
 .skills {
   display: inline-block;
   list-style-type: none;
 
   li {
-    display: inline-block;
+	display: inline-block;
 
-    &:not(:last-child):after {
-      content: ",";
-      padding-right: 5px;
-    }
+	&:not(:last-child):after {
+	  content: ',';
+	  padding-right: 5px;
+	}
   }
 }
 
 @media screen and (max-width: 709px) {
   .profile-picture {
-    display: block;
-    float: none;
-    margin: 0 auto 20px;
+	display: block;
+	float: none;
+	margin: 0 auto 20px;
   }
 }

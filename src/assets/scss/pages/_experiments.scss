@@ -2,48 +2,50 @@
 
 #experiments-page {
   nav {
-    ul {
-      list-style-type: disc;
+	ul {
+	  list-style-type: disc;
 
-      li {
-        display: list-item;
-      }
-    }
+	  li {
+		display: list-item;
+	  }
+	}
   }
 }
 
 fieldset {
-    border: 1px solid $black;
-    margin-bottom: 20px;
-    padding: 10px 20px;
+  border: 1px solid $black;
+  margin-bottom: 20px;
+  padding: 10px 20px;
 
-    legend {
-      padding: 0 10px;
-    }
+  legend {
+	padding: 0 10px;
+  }
 
-    li {
-      overflow: hidden;
+  li {
+	overflow: hidden;
 
-      [type="checkbox"], label {
-        float: left;
-      }
-      [type="checkbox"] {
-        margin-right: 10px;
-        width: auto;
-      }
-      label {
-        margin-top: -5px;
-      }
-    }
+	[type='checkbox'], label {
+	  float: left;
+	}
+
+	[type='checkbox'] {
+	  margin-right: 10px;
+	  width: auto;
+	}
+
+	label {
+	  margin-top: -5px;
+	}
+  }
 }
 
 .character-options {
   li {
-    display: inline-block;
-    margin-bottom: 0;
+	display: inline-block;
+	margin-bottom: 0;
 
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+	&:not(:last-child) {
+	  margin-right: 20px;
+	}
   }
 }

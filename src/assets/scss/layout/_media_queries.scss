@@ -2,49 +2,49 @@
 
 @media screen and (max-width: 1239px) {
   main {
-    margin: 0 auto;
-    width: calc(100% - 40px);
+	margin: 0 auto;
+	width: calc(100% - 40px);
   }
 }
 
 @media screen and (max-width: 956px) {
   #logo, #main-nav {
-    float: none;
+	float: none;
   }
   #logo {
-    display: inline-block;
-    left: 50%;
-    padding-bottom: 0 !important;
-    position: relative;
-    transform: translateX(-50%);
+	display: inline-block;
+	left: 50%;
+	padding-bottom: 0 !important;
+	position: relative;
+	transform: translateX(-50%);
   }
   #main-nav {
-    padding-top: 0 !important;
-    text-align: center;
+	padding-top: 0 !important;
+	text-align: center;
   }
 }
 
 @media screen and (max-width: 775px) {
   #copyright, #social-nav {
-    float: none;
-    text-align: center;
+	float: none;
+	text-align: center;
   }
   #social-nav {
-    padding-top: 0 !important;
+	padding-top: 0 !important;
   }
 
   a.button {
-    text-align: center;
-    width: 100%;
+	text-align: center;
+	width: 100%;
   }
 }
 
 @media screen and (max-width: 436px) {
   #logo {
-    text-align: center;
+	text-align: center;
 
-    img, h1 {
-        float: none;
-    }
+	img, h1 {
+	  float: none;
+	}
   }
 }

@@ -29,14 +29,18 @@ a {
   text-decoration: none;
 
   &.button {
-    border: 1px solid $primary;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 1rem 2rem;
+	border: 1px solid $primary;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 1rem 2rem;
 
-    &:hover {
-      background-color: $black;
-    }
+	&:hover {
+	  background-color: $black;
+	}
+
+	&.small {
+	  padding: 0.5rem 1rem;
+	}
   }
 }
 
@@ -125,6 +129,7 @@ form {
 
 @import 'pages/_home.scss';
 @import 'pages/_about.scss';
+@import 'pages/_blog.scss';
 @import 'pages/_experiments.scss';
 @import 'pages/_contact.scss';
 
