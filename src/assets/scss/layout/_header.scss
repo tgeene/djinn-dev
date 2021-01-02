@@ -18,6 +18,10 @@
 }
 
 #main-nav {
+  .menu-toggle {
+	display: none;
+  }
+
   ul {
 	margin: 1.5rem 0;
 	border-bottom: 1px solid $primary;

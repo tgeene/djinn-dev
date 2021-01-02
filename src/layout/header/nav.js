@@ -27,9 +27,18 @@ function Nav()
 		}
 	];
 
+	// document.getElementById('main-nav').addEventListener('click', function() {
+	// 	this.classList.toggle('active');
+	// });
+	const toggleActive = () =>
+	{
+		document.getElementById('main-nav').classList.toggle('active');
+	};
+
 	return (
 		<nav id='main-nav'>
-			<ul>
+			<span className='menu-toggle' onClick={ toggleActive }></span>
+			<ul onClick={ toggleActive }>
 				{ link_list.map((item, i) => (
 					<li key={ i }>
 						<Link to={ item.url } title={ item.text + " | Djinn Development" }>{ item.text }</Link>
