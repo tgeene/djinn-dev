@@ -15,7 +15,7 @@ function ArticlePage()
 
 	const [ article, setArticle ] = useState([]);
 
-	useEffect(() =>
+	useEffect((articleUrl) =>
 			  {
 				  const url = 'https://api.djinn.dev/get-article.php?url=' + articleUrl;
 
