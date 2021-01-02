@@ -32,7 +32,10 @@ function Nav()
 	// });
 	const toggleActive = () =>
 	{
-		document.getElementById('main-nav').classList.toggle('active');
+		if(window.innerWidth <= 530)
+		{
+			document.getElementById('main-nav').classList.toggle('active');
+		}
 	};
 
 	return (
