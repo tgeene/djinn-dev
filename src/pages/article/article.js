@@ -12,16 +12,15 @@ import { update_meta_data } from '../../lib/misc';
 function ArticlePage()
 {
 	const { articleUrl } = useParams();
-
 	const [ article, setArticle ] = useState([]);
 
-	useEffect((articleUrl) =>
+	useEffect(() =>
 			  {
 				  const url = 'https://api.djinn.dev/get-article.php?url=' + articleUrl;
 
 				  async function fetchData()
 				  {
-					  await fetch(url + window.location.search)
+					  await fetch(url)
 						  .then(response => response.json())
 						  .then(data =>
 								{
@@ -31,12 +30,12 @@ function ArticlePage()
 				  }
 
 				  fetchData();
-			  }, []);
+			  }, [ articleUrl ]);
 
 	// Update Page Details
 	const title = "Article | Djinn Development";
 	const description = "Article description.";
-	update_meta_data(title, description, '/article/' + articleUrl);
+	update_meta_data(title, description, '/article');
 
 	// Load Page Content
 	return (
