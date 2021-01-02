@@ -106,6 +106,14 @@
   main {
 	padding: 1.5rem;
   }
+
+  form {
+	.half {
+	  float: none !important;
+	  margin-left: 0 !important;
+	  width: 100% !important;
+	}
+  }
 }
 
 @media screen and (max-width: 451px) {
@@ -131,12 +139,5 @@
 
   main {
 	padding: 1rem;
-  }
-
-  form {
-	.half {
-	  float: none;
-	  width: 100%;
-	}
   }
 }
