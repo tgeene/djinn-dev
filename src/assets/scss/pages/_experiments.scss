@@ -35,6 +35,7 @@ fieldset {
 
 	label {
 	  margin-top: -5px;
+	  width: calc(100% - 23px);
 	}
   }
 }
@@ -43,6 +44,7 @@ fieldset {
   li {
 	display: inline-block;
 	margin-bottom: 0;
+	width: 36px;
 
 	&:not(:last-child) {
 	  margin-right: 20px;
