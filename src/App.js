@@ -29,7 +29,7 @@ function App()
 					<Route exact path='/' component={ HomePage }/>
 					<Route exact path='/about' component={ AboutPage }/>
 					<Route exact path='/blog' component={ BlogPage }/>
-					<Route exact path='/article/:articleUrl' component={ ArticlePage }/>
+					<Route exact path='/article/:article' component={ ArticlePage }/>
 					<Route exact path='/experiments' component={ ExperimentsPage }/>
 					<Route exact path='/experiments/password-generator' component={ PasswordGeneratorPage }/>
 					<Route exact path='/experiments/ipsum-generator' component={ IpsumGeneratorPage }/>

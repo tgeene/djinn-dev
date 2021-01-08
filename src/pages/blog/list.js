@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-// content
+// load library
+import { temp_article_details } from '../../lib/temp-article';
 
-function Details(props)
+// content
+function Details()
 {
-	const [ articles, setArticles ] = useState([]);
+	const [ articles, setArticles ] = useState(temp_article_details());
 
 	useEffect(() =>
 			  {
