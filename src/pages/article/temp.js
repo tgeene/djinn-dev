@@ -10,7 +10,7 @@ function TempArticlePage()
 	const article = temp_article_details(false);
 
 	// Update Page Details
-	update_meta_data(article.title + " | Djinn Development", article.description, '/article/' + article.url);
+	update_meta_data(article.title + " | Djinn Development", article.description, '/article/' + article.url, false);
 
 	// Load Page Content
 	return (
@@ -23,7 +23,7 @@ function TempArticlePage()
 			</header>
 			<div dangerouslySetInnerHTML={ { __html: article.content } }/>
 			<footer id='temp-footer'>
-				<p>I see you have found my secret page. Well congrats to you on a job well done. Now get out of here are look at some real content!
+				<p>Congratulations on finding my page of quotes, you must be so proud. This was only ever meant to be a dummy page, now get out of here are look at some real content!
 					<span role='img' aria-label='Tongue sticking out!'>&#128539;</span>
 				</p>
 			</footer>

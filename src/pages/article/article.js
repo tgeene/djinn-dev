@@ -11,7 +11,7 @@ function ArticlePage()
 	const { article } = useParams();
 
 	let articleContent = <TempArticlePage/>;
-	if(article !== 'temp-article')
+	if(article !== 'the-article-that-should-not-exist-but-here-it-is')
 	{
 		articleContent = <RealArticlePage articleUrl={ article }/>;
 	}
