@@ -1,0 +1,129 @@
+@import '_config.scss';
+
+* {
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+}
+
+body {
+  background-color: $black;
+  color: $white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.025rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+  &.button {
+	border: 1px solid $primary;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 1rem 2rem;
+
+	&:hover {
+	  background-color: $black;
+	}
+
+	&.small {
+	  padding: 0.5rem 1rem;
+	}
+  }
+}
+
+nav {
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+main {
+  background-color: $darkgrey;
+  border-radius: 5px;
+  line-height: 1.5rem;
+  overflow: hidden;
+  padding: 2rem;
+
+  section, h1, h2, h3, h4, p, ul {
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+  ul {
+    margin-left: 2rem;
+  }
+}
+
+form {
+  .output, .required {
+    color: $secondary;
+  }
+  .output {
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  .error {
+    color: $tertiary;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+
+    li {
+      margin-bottom: 10px;
+    }
+    .half {
+      float: left;
+      width: 48%;
+
+      &:nth-child(2n) {
+        margin-left: 4%;
+      }
+    }
+  }
+  label {
+    display: block;
+  }
+  input, textarea {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+  }
+
+  button {
+    background-color: transparent;
+    border: 1px solid $primary;
+    border-radius: 10px;
+    cursor: pointer;
+    color: $primary;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+      background-color: $black;
+    }
+  }
+}
+
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_header_footer.scss';
+@import 'layout/_media_queries.scss';

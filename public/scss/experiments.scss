@@ -1,0 +1,51 @@
+@import '_config';
+@import '_global';
+
+#experiments-page {
+  nav {
+	ul {
+	  list-style-type: disc;
+
+	  li {
+		display: list-item;
+	  }
+	}
+  }
+}
+
+fieldset {
+  border: 1px solid $black;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+
+  legend {
+	padding: 0 10px;
+  }
+
+  li {
+	overflow: hidden;
+
+	[type='checkbox'], label {
+	  float: left;
+	}
+
+	[type='checkbox'] {
+	  margin-right: 10px;
+	  width: auto;
+	}
+
+	label {
+	  margin-top: -5px;
+	  width: calc(100% - 23px);
+	}
+  }
+}
+
+.character-options {
+  li {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: 20px;
+	width: 36px;
+  }
+}

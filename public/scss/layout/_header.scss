@@ -1,0 +1,63 @@
+@import '../_config.scss';
+
+#logo {
+  float: left;
+
+  img, h1 {
+	float: left;
+  }
+
+  h1 {
+	margin-left: 1rem;
+  }
+
+  h1 > span {
+	display: block;
+	font-size: 1.75em;
+  }
+}
+
+#main-nav {
+  .menu-toggle {
+	display: none;
+  }
+
+  ul {
+	margin: 1.5rem 0;
+	border-bottom: 1px solid $primary;
+
+	li {
+	  font-size: 1.25em;
+	  position: relative;
+
+	  &:not(:first-child) {
+		padding-left: 0.5rem;
+	  }
+
+	  a {
+		display: block;
+		padding: 0.5rem;
+	  }
+
+	  ul {
+		border-left: 1px solid $primary;
+		border-right: 1px solid $primary;
+		display: none;
+		margin: 0;
+		position: absolute;
+
+		li {
+		  background-color: $black;
+		  border-top: 1px solid $primary;
+		  display: block;
+		  font-size: 0.8em;
+		  margin: 0;
+		}
+	  }
+
+	  &:hover ul {
+		display: block;
+	  }
+	}
+  }
+}

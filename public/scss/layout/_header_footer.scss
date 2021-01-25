@@ -1,0 +1,13 @@
+@import '../_config.scss';
+
+#main-header, #main-footer {
+  overflow: hidden;
+
+  > div, > nav {
+	padding: 2rem;
+  }
+}
+
+#main-nav, #social-nav {
+  float: right;
+}
